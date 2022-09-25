@@ -1,32 +1,107 @@
 body{
     background-color: rgb(22, 21, 21);
 }
-.container{
-    display: flex;
-}
-.first-container{
 
-}
-.section{
-    margin-left: 800px;
-}
-.second-container{
-    border-radius: 10px;
-    background-color: white;
-    height: 600px;
-    width: 400px;
+.container{
+   
+        display: flex;
+        justify-content: space-between;
+    
     
 }
-.activities{
-    padding: 25px;
+
+.section {
+    display: flex;
+    margin-left: 120px;
 }
-.crossicons{
+
+.profile {
+    height: 193px;
+    width: 350px;
+    background-color: rgb(63, 59, 59);
+    border-radius: 8px;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.icon {
     width: 25px;
-    float:right;
+    border-radius: 50%;
+    background-color: transparent;
 }
-.icons{
-    width: 40px;
+
+.img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.mute-icon {
+    padding-left: 300px;
+    margin: 10px;
+}
+
+.profile-img{
+    padding-left: 130px;
+}
+
+.profile-name {
+    padding-left: 10px;
+}
+
+.second-container {
+    width: 350px;
+    height: 620px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
 
 
+.activities {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 8px;
+}
 
+.cross-icon img {
+    width: 18px;
+
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+
+.icons {
+    width: 25px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #e8f8fd;
+
+}
+
+.text-style {
+    font-size: 14px;
+    
+}
+
+.text-1 {
+    margin-right: 20px;
+    width: 800px;
+}
+.text-1 b{
+    font-size: 15px;
+}
+
+.text-miro{
+    padding-bottom: 40px;
+}
+
+.para-item {
+    padding-left: 25px;
 }
