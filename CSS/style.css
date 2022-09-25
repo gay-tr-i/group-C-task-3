@@ -1,4 +1,60 @@
-body{
+body {
     background-color: rgb(22, 21, 21);
 }
+.section{
+    margin-left: 120px;
+    display: flex;
+    
 
+}
+
+.profile {
+    
+    background-color: rgb(63, 59, 59);
+    border-radius: 8px;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+
+
+}
+
+.img-1 {
+    width: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+.img-2 {
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 {
+    padding-left: 300px;
+    margin: 10px;
+
+}
+
+.card {
+    padding-left: 130px;
+
+}
+
+.person-item {
+    padding-left: 10px;
+
+}
+
+
+.step1 {
+    display: flex;
+    justify-content: space-betwee…
